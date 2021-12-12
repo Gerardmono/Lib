@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:text="Libreria\nEl buen programador"
+            android:textSize="24sp"
+            android:layout_span="3"
+            android:textAlignment="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:text="Que opción deseas?"
+            android:textSize="24sp"
+            android:layout_span="3"
+            android:textAlignment="center"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/botonInserta"
+            android:layout_column="1"
+            android:text="Inserta"/>
+    </TableRow>
+    <TableRow>
+        <Button android:id="@+id/botonVisualiza"
+            android:layout_column="1"
+            android:text="Visualiza"/>
+    </TableRow>
+    <TableRow>
+        <Button android:id="@+id/botonElimina"
+            android:layout_column="1"
+            android:text="Elimina"/>
+    </TableRow>
+    <TableRow>
+        <Button android:id="@+id/botonActualiza"
+            android:layout_column="1"
+            android:text="Actualiza"/>
+    </TableRow>
+
+</TableLayout>

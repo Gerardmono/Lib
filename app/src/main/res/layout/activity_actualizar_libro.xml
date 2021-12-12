@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarLibro"
+    android:padding="30dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:text="Actualizar Libro"
+            android:textSize="24sp"
+            android:layout_span="5"
+            android:textAlignment="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="ISBN: "
+            android:textSize="18sp"
+            android:layout_column="0"/>
+        <EditText
+            android:id="@+id/actualizarIsbn"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Actualiza el libro"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:layout_span="5"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="18sp"
+            android:text="Titulo: "
+            android:layout_column="0"/>
+        <EditText
+            android:id="@+id/actualizarTitulo"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="18sp"
+            android:text="Autor: "
+            android:layout_column="0"/>
+        <EditText
+            android:id="@+id/actualizarAutor"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="18sp"
+            android:text="Precio: "
+            android:layout_column="0"/>
+        <EditText
+            android:id="@+id/actualizarPrecio"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnActualizarLibro"
+            android:text="Actualizar"
+            android:layout_column="1"
+            android:onClick="actualizaLibro"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnRegresaActualizar"
+            android:text="Regresar"
+            android:layout_column="1"/>
+    </TableRow>
+</TableLayout>

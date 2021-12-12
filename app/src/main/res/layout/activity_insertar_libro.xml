@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertarLibro"
+    android:padding="30dp"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:text="Libro"
+            android:textSize="24sp"
+            android:layout_span="5"
+            android:textAlignment="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:text="ISBN: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/nuevoIsbn"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="0"
+            android:text="Titulo: "
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/nuevoTitulo"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:text="Autor"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/nuevoAutor"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:text="Precio"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/nuevoPrecio"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnInsertarLibro"
+            android:text="Insertar"
+            android:layout_column="1"
+            android:onClick="insertaLibro"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnRegresaInsertar"
+            android:text="Regresar"
+            android:layout_column="1"/>
+    </TableRow>
+</TableLayout>
