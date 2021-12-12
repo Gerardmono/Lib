@@ -41,13 +41,13 @@ public class ActualizarLibro extends AppCompatActivity {
             Libro libro = new Libro(valIsbn, valTitulo, valAutor, valPrecio);
             libros.put(valIsbn, libro);
             Toast.makeText(this, "Libro actualizado", Toast.LENGTH_SHORT).show();
+            actIsbn.setText("");
+            actTitulo.setText("");
+            actAutor.setText("");
+            actPrecio.setText("");
         } else {
             Toast.makeText(this, "El libro no existe", Toast.LENGTH_SHORT).show();
         }
-        actIsbn.setText("");
-        actTitulo.setText("");
-        actAutor.setText("");
-        actPrecio.setText("");
     }
 
     public void regresaActualizar() {

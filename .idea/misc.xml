@@ -3,11 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_actualizar_libro.xml" value="0.25" />
-        <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_eliminar_libro.xml" value="0.25" />
+        <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_actualizar_libro.xml" value="0.33" />
+        <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_eliminar_libro.xml" value="0.33" />
         <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_insertar_libro.xml" value="0.33" />
         <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_ver_libros.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/bakai/AndroidStudioProjects/Lib/app/src/main/res/layout/activity_ver_libros.xml" value="0.33" />
       </map>
     </option>
   </component>
